@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+  background:url("prjett.jpg");
+  background-size: cover;
+}
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(217, 212, 219);
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #604886;
+    color: rgb(242, 243, 182);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #231935;
+    color: rgb(248, 230, 172);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgb(243, 229, 169);
+    padding: 30px;
+    margin-top: 3.5%;
+    margin-bottom:3.5%;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 30%;
+    margin-top: 12px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  #date2 {
+    margin-right: 40%;
+    }

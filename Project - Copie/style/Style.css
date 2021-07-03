@@ -1,0 +1,71 @@
+body {
+  background: url(prjett.jpg);
+  background-size: cover;
+  opacity: 5;
+  backface-visibility: inherit;
+}
+h1 {
+  color: rgb(33, 18, 46);
+  padding: 50px;
+  text-align: center !important;
+  font-size: 60px;
+  font-weight: bold;
+}
+h1:hover {
+  color: #f8c272;
+}
+#lab {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(12, 11, 14);
+  margin-left: 25%;
+}
+#lab1 {
+  font-size: 20px;
+  margin-left: 64%;
+  margin-top: -6.2%;
+  font-weight: bold;
+  color: rgb(18, 16, 20);
+}
+.bouton {
+  background-color: #493479;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+#btn:hover {
+  opacity: 0.5;
+  font-size: 25px;
+  margin-left: 22%;
+}
+#btn1:hover {
+  opacity: 0.5;
+  font-size: 25px;
+  margin-left: 26%;
+}
+#btn1 {
+  margin-top: -40;
+  margin-left: 28%;
+}
+#btn {
+  margin-left: 25%;
+}
+#add {
+  margin-top: 15%;
+  color: #2e1e52;
+}
+#btn2 {
+  margin-left: 0%;
+  margin-top: -12px;
+  margin-bottom: 4%;
+}
+#btn2:hover {
+  opacity: 0.5;
+}
